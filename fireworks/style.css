@@ -1,0 +1,65 @@
+html, body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.boite{
+    background-image: url("fireworks.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.bande{
+    background-color: rgb(10,90,250,0.5);
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.titre{
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.lien{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin-right: 1vw;
+    margin-left: 1vw;
+     justify-content: flex-end
+}
+
+.punchline{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    display: flex;
+}
+
+.punch1{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(10,90,250,0.5)
+}
+
+.punch2{
+    color: white;
+    font-size: 4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(10,90,250,0.5)
+}
